@@ -15,16 +15,9 @@
 /* ^ THIS IS THE MAIN IMPORT. DO NOT TOUCH THIS OR THE THEME WILL BREAK. ^ */
 
 /* @import url('https://commandcrafterhd.github.io/Fallout4TerminalTheme/css/disableCRT.css'); */
-/* ^ UNCOMMENT THIS IMPORT IF YOU WANT TO REMOVE THE CRT EFFECT ^ */
-
-/* TO CUSTOMIZE THE THEME, UNCOMMENT THE LINES BELOW AND REPLACE THE VARIABLES */
-
-/* REMOVE THIS LINE TO UNCOMMENT
 
 :root {
-  --background: #000700 !important;
-  --text-color: #4AEF98 !important;
-  --highlight: var(--text-color) !important;
+  --background: #000700; /* default: #000700 */
+  --text-color: #4AEF98; /* default: #4AEF98 */
+  --highlight:   var(--text-color); /* default: var(--text-color) */
 }
-
-   REMOVE THIS LINE TO UNCOMMENT ASWELL */
