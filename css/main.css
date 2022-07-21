@@ -4,10 +4,33 @@
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
 
 :root, .theme-light {
-  --rgb-highlight: 4, 217, 255;
-  --highlight: var(--text-color);
+
+/*  CHANGE COLORS HERE  */
+
+  --rgb-highlight: 4 , 217 , 255;
+
+  --highlight: rgb(0, 255, 64);
+  
+  --btns: rgb(70, 255, 70);
+  --btns-active: rgb(0, 255, 0);
+  --btns-hover: rgb(200, 255, 214);
+  --scrollbar-bar: rgb(132, 255, 148);
+  --scrollbar-track: #002400;
+
   --background: #000900;
-  --text-color: #4AEF98;
+
+  --hprimary: rgb(200, 255, 214);
+  --hsecondary: #26a80f ;
+  --textbox-area: #001a00;
+
+  --text-color: rgb(90, 255, 75);
+  --text-mute: rgb(90, 255, 75);
+  --text-links: rgb(180, 212, 248);
+  --chnl-list: #26a80f;
+  
+  
+/* COLOR ASSIGNATION */
+/*Modify only if you know what you are doing*/
   --close-button: var(--dnd-color) !important;
   --online-color: #39ff14;
   --afk-color: #FFFF33;
@@ -18,19 +41,19 @@
   --rs-dnd-color: var(--dnd-color);
   --rs-offline-color: gray;
   --rs-invisible-color: gray;
-  --rs-streaming-color: var(--stream-color);
-  --interactive-hover: var(--highlight);
-  --interactive-active: var(--highlight);
-  --text-link: var(--highlight);
+  --rs-streaming-color: var(--streaming-color);
+  --interactive-hover: var(--btns-hover);
+  --interactive-active: var(--btns-active);
+  --text-link: var(--text-links);
   --bdfdb-blurple: var(--highlight);
   --logo-primary: var(--highlight);
   --focus-primary: var(--highlight);
   --radio-group-dot-foreground: var(--highlight);
   --scrollbar-thin-thumb: var(--highlight);
-  --scrollbar-auto-thumb: var(--highlight);
+  --scrollbar-auto-thumb: var(--scrollbar-bar);
   --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
   --scrollbar-thin-track: var(--background);
-  --scrollbar-auto-track: var(--background);
+  --scrollbar-auto-track: var(--scrollbar-track);
   --scrollbar-auto-scrollbar-color-track: var(--background);
   --activity-card-background: var(--background);
   --background-primary: var(--background);
@@ -43,11 +66,11 @@
   --background-floating: var(--background);
   --text-normal: var(--text-color);
   --text-muted: var(--text-color);
-  --header-primary: var(--text-color);
-  --header-secondary: var(--text-color);
-  --channels-default:var(--text-color);
-  --interactive-normal: var(--text-color);
-  --channeltextarea-background: var(--background);
+  --header-primary: var(--hprimary);
+  --header-secondary: var(--hsecondary);
+  --channels-default:var(--chnl-list);
+  --interactive-normal: var(--btns);
+  --channeltextarea-background: var(--textbox-area);
   --textbox-markdown-syntax: var(--background);
 }
 

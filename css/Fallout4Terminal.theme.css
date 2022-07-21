@@ -17,14 +17,76 @@
 /* @import url('https://commandcrafterhd.github.io/Fallout4TerminalTheme/css/disableCRT.css'); */
 /* ^ UNCOMMENT THIS IMPORT IF YOU WANT TO REMOVE THE CRT EFFECT ^ */
 
-/* TO CUSTOMIZE THE THEME, UNCOMMENT THE LINES BELOW AND REPLACE THE VARIABLES */
-
-/* REMOVE THIS LINE TO UNCOMMENT
+/* CUSTOMIZATION OPTIONS BELOW */
 
 :root {
-  --background: #000700 !important;
-  --text-color: #4AEF98 !important;
-  --highlight: var(--text-color) !important;
+  /*MAIN COLORS*/
+  --rgb-highlight: 4 , 217 , 255 !important;
+
+  --highlight: rgb(0, 255, 64) !important;
+  
+  --btns: rgb(70, 255, 70) !important;
+  --btns-active: rgb(0, 255, 0) !important;
+  --btns-hover: rgb(200, 255, 214) !important;
+  --scrollbar-bar: rgb(132, 255, 148) !important;
+  --scrollbar-track: #002400 !important;
+
+  --background: #000900 !important;
+
+  --hprimary: rgb(200, 255, 214) !important;
+  --hsecondary: #26a80f !important;
+  --textbox-area: #001a00 !important;
+
+  --text-color: rgb(90, 255, 75) !important;
+  --text-mute: rgb(90, 255, 75) !important;
+  --text-links: rgb(180, 212, 248) !important;
+  --chnl-list: #26a80f !important;
+  
+  
+/* COLOR ASSIGNATION */
+/*Modify only if you know what you are doing*/
+  --online-color: #39ff14 !important;
+  --afk-color: #FFFF33 !important;
+  --dnd-color: #FF0000 !important;
+  --streaming-color: #bc13fe !important;
+  
+  --close-button: var(--dnd-color) !important;
+  --rs-online-color: var(--online-color) !important;
+  --rs-idle-color: var(--afk-color) !important;
+  --rs-dnd-color: var(--dnd-color) !important;
+  --rs-offline-color: gray !important;
+  --rs-invisible-color: gray !important;
+  --rs-streaming-color: var(--streaming-color) !important;
+  --interactive-hover: var(--btns-hover) !important;
+  --interactive-active: var(--btns-active) !important;
+  --text-link: var(--text-links) !important;
+  --bdfdb-blurple: var(--highlight) !important;
+  --logo-primary: var(--highlight) !important;
+  --focus-primary: var(--highlight) !important;
+  --radio-group-dot-foreground: var(--highlight) !important;
+  --scrollbar-thin-thumb: var(--highlight) !important;
+  --scrollbar-auto-thumb: var(--scrollbar-bar) !important;
+  --scrollbar-auto-scrollbar-color-thumb: var(--highlight) !important;
+  --scrollbar-thin-track: var(--background) !important;
+  --scrollbar-auto-track: var(--scrollbar-track) !important;
+  --scrollbar-auto-scrollbar-color-track: var(--background) !important;
+  --activity-card-background: var(--background) !important;
+  --background-primary: var(--background) !important;
+  --background-mobile-primary: var(--background) !important;
+  --background-secondary: var(--background) !important;
+  --background-mobile-secondary: var(--background) !important;
+  --background-secondary-alt: var(--background) !important;
+  --background-tertiary: var(--background) !important;
+  --background-accent: var(--background) !important;
+  --background-floating: var(--background) !important;
+  --text-normal: var(--text-color) !important;
+  --text-muted: var(--text-color) !important;
+  --header-primary: var(--hprimary) !important;
+  --header-secondary: var(--hsecondary) !important;
+  --channels-default:var(--chnl-list) !important;
+  --interactive-normal: var(--btns) !important;
+  --channeltextarea-background: var(--textbox-area) !important;
+  --textbox-markdown-syntax: var(--background) !important;
+}
 }
 
-   REMOVE THIS LINE TO UNCOMMENT ASWELL */
